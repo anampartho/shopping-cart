@@ -1,0 +1,6 @@
+/* Hero */
+.hero {
+  background: url(/img/surface-zyeYEU7WyNo-unsplash.jpg) no-repeat bottom/cover;
+  height: calc(100vh - 56px);
+}
+/* /. Hero */
