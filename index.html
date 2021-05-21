@@ -19,7 +19,7 @@
       <section class="products has-gutter">
         <div class="container">
           <div class="columns">
-            <div class="column is-four-fifths">
+            <div class="column is-three-quarters">
               <h1 class="title">Available Products</h1>
   
               <div class="products-container">
@@ -146,7 +146,29 @@
             </div>
             <div class="column">
               <h2 class="title">Cart</h2>
-              <div id="cart"></div>
+              <div id="cart">
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th>Product</th>
+                      <th>Quantity</th>
+                      <th>Price</th>
+                    </tr>
+                  </thead>
+                  <tbody id="produts-table-body">
+                    <tr>
+                      <td colspan="3">Please add a product to the cart!</td>
+                    </tr>
+                  </tbody>
+                  <tfoot>
+                    <tr>
+                      <td><strong>Total</strong></td>
+                      <td></td>
+                      <td id="#total-price"></td>
+                    </tr>
+                  </tfoot>
+                </table>
+              </div>
             </div>
           </div>
         </div>
